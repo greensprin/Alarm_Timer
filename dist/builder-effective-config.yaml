@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+productName: Alarm_Timer
+appId: com.example.app
+win:
+  target: zip
+files: []
+electronVersion: 23.2.0

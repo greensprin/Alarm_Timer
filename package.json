@@ -1,0 +1,30 @@
+{
+  "name": "01_alarm_timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder --win --x64"
+  },
+  "build": {
+    "productName": "Alarm_Timer",
+    "appId": "com.example.app",
+    "win": {
+      "target": "zip"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^23.2.0",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "date-utils": "^1.2.21",
+    "electron-log": "^4.4.8",
+    "ini": "^4.0.0",
+    "python-shell": "^5.0.0"
+  }
+}
